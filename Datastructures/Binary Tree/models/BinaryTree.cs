@@ -371,6 +371,7 @@ namespace Binary_TreeApp.models
                 //1.Fall:
                 if ((treeItemToRemove.LeftItem == null) && (treeItemToRemove.RightItem != null))
                 {
+                    //tom stinkt
                     if (itemBefore.RightItem == treeItemToRemove)
                     {
                         itemBefore.RightItem = treeItemToRemove.RightItem;
