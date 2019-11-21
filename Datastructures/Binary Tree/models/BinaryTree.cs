@@ -371,7 +371,7 @@ namespace Binary_TreeApp.models
                 //1.Fall:
                 if ((treeItemToRemove.LeftItem == null) && (treeItemToRemove.RightItem != null))
                 {
-                    //fabischiach
+                    //HURENSOHN
                     if (itemBefore.RightItem == treeItemToRemove)
                     {
                         itemBefore.RightItem = treeItemToRemove.RightItem;
